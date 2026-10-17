@@ -92,7 +92,8 @@ export default function Home() {
           </div>
           <div className="reveal delay-1 flex flex-col justify-end">
             <div className="relative mb-8 aspect-[4/5] overflow-hidden bg-[#252521] shadow-2xl shadow-black/15">
-              <div className="absolute inset-0 bg-[linear-gradient(145deg,transparent_32%,rgba(185,145,75,.42)),linear-gradient(0deg,rgba(0,0,0,.82),transparent_55%)]" />
+              <img src="/produto-cavalheiro.jpg" alt="Modelo usando camisa Cavalheiro" className="absolute inset-0 h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-[linear-gradient(145deg,transparent_32%,rgba(185,145,75,.18)),linear-gradient(0deg,rgba(0,0,0,.78),transparent_55%)]" />
               <div className="absolute inset-x-6 bottom-6 text-[var(--paper)]">
                 <p className="text-[10px] uppercase tracking-[.22em] text-[#d6b578]">
                   CAV / 001

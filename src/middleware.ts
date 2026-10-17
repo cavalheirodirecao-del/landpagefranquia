@@ -1,0 +1,3 @@
+import { NextResponse, type NextRequest } from "next/server";
+export function middleware(request: NextRequest) { if (request.nextUrl.pathname.startsWith("/admin") && request.nextUrl.pathname !== "/admin/login" && !request.cookies.get("cavalheiro_admin")) return NextResponse.redirect(new URL("/admin/login", request.url)); if (request.nextUrl.pathname.startsWith("/api/admin/leads") && !request.cookies.get("cavalheiro_admin")) return NextResponse.json({ error: "Não autorizado" }, { status: 401 }); return NextResponse.next(); }
+export const config = { matcher: ["/admin/:path*", "/api/admin/leads"] };

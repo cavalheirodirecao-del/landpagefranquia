@@ -275,8 +275,8 @@ export default function Home() {
             {[
               [
                 "01",
-                "Produto que tem assinatura",
-                "Criação própria, produção exclusiva e uma grade que atende do P ao G3.",
+                "Roupas próprias e exclusivas",
+                "A Cavalheiro cria e fabrica suas próprias peças, com grade do P ao G3.",
               ],
               [
                 "02",

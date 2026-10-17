@@ -63,6 +63,7 @@ O arquivo `.env.local` está no `.gitignore`. Não salvar chaves de API no front
 - Integração criada para a conexão `landypageFRANQUIA`.
 - O endpoint envia nome, WhatsApp, e-mail, cidade, estado, faixa de investimento, experiência, disponibilidade de operação, `lead_id` e origem.
 - A primeira mensagem do WhatsApp deve ser personalizada com nome e cidade e informar que a equipe analisará o perfil e a disponibilidade da praça.
+- Contato direto comercial: Wallyson Rafael, diretor da Cavalheiro, WhatsApp `+55 81 99822-9477`. Link já usado na landing page com mensagem de interesse em ser franqueado Cavalheiro.
 - A implementação atual usa o webhook. Se o Datacrazy exigir uma API key em header, consultar a documentação do endpoint antes de adicionar autenticação; não adivinhar o header.
 
 ## Deploy atual

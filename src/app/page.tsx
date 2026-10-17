@@ -11,6 +11,8 @@ import {
 } from "lucide-react";
 import { LeadForm } from "@/components/LeadForm";
 
+const whatsappUrl = "https://api.whatsapp.com/send/?phone=5581998229477&text=Ol%C3%A1%21%20Tenho%20interesse%20em%20ser%20franqueado%20Cavalheiro.&type=phone_number&app_absent=0";
+
 const faqs = [
   [
     "A Cavalheiro cobra taxa de franquia?",
@@ -359,6 +361,10 @@ export default function Home() {
                 análise da praça e da disponibilidade territorial.
               </span>
             </div>
+            <a href={whatsappUrl} target="_blank" rel="noreferrer" className="focus-ring group mt-8 inline-flex items-center gap-4 border-b border-[var(--ink)] pb-3 text-sm font-semibold">
+              Falar diretamente com Wallyson Rafael, diretor da Cavalheiro
+              <span className="transition-transform duration-500 group-hover:translate-x-1"><ArrowUpRight size={16} /></span>
+            </a>
           </div>
           <div className="bg-[var(--paper)] p-6 md:p-10">
             <LeadForm />
